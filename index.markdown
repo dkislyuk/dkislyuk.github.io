@@ -7,7 +7,7 @@ layout: default
 
 ## Work
 
-Currently, I am a director of engineering at Pinterest, leading the computer vision team as part of the Advanced Technologies Group. The vision team works on visual search products, large-scale representation learning (e.g. multimodal embeddings), text-to-image diffusion models, core computer vision signals (e.g. detection, segmentation), visual-language models, and more. I lead a mix of research, ML engineering, and product teams.
+Currently, I am a director of engineering at Pinterest, leading the computer vision team as part of the Advanced Technologies Group. The vision team works on visual search products, large-scale representation learning (e.g. multimodal embeddings), text-to-image diffusion models, core computer vision signals (e.g. detection, segmentation), visual-language models, and more. I lead a mix of ML research, ML engineering, and product teams.
 
 I completed my masters at Stanford University and my undergraduate CS degree at U.C. Berkeley.
 
