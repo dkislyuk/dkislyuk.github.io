@@ -33,7 +33,7 @@ plugins:
   - jekyll-feed
 
 # Post permalink structure (no .html extension)
-permalink: /writing/:slug
+permalink: /:slug
 
 
 special_links:
