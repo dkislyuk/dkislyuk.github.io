@@ -277,6 +277,12 @@ ul.discover-posts li small a {
 }
 
 
+/* =============================================================================
+   DARK MODE - DISABLED
+   To re-enable: remove the opening and closing comment markers below
+   ============================================================================= */
+
+/*
 @media (prefers-color-scheme: light) {
     body {
         background-color: #01242e;
@@ -314,6 +320,7 @@ ul.discover-posts li small a {
         color: #aaa;
     }
 }
+*/
 
 
 
