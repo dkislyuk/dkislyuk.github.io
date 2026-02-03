@@ -1,5 +1,6 @@
 body {
-    font-family: Verdana, sans-serif;
+    /* font-family: Verdana, sans-serif; */
+    font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     margin: auto;
     padding: 20px;
     max-width: 720px;
