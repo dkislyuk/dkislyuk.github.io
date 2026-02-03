@@ -21,21 +21,25 @@
 title: Dmitry Kislyuk
 email: hi@dkislyuk.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Personal site for Dmitry Kislyuk
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dkislyuk
 github_username:  dkislyuk
 
 # Build settings
-# theme: minima
-remote_theme: knhash/jekyllBear
+theme: minima
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
 
+# Post permalink structure (no .html extension)
+permalink: /writing/:slug
+
+
+special_links:
+  "Google Scholar": https://scholar.google.com/citations?user=6DWVgpEAAAAJ
+  "LinkedIn": https://www.linkedin.com/in/dmitry-kislyuk-2002043b
+  "GitHub": https://github.com/dkislyuk
 
 
 # Exclude from processing.
@@ -57,65 +61,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-
-#########################
-# more settings
-
-plugins:
-  - jekyll-redirect-from
-
-whitelist:
-  - jekyll-redirect-from
-
-markdown: kramdown
-
-compress_html:
-  clippings: all
-  comments: [""]
-  endings: [html, head, body, li, dt, dd, rt, rp, optgroup, option, colgroup, caption, thead, tbody, tfoot, tr, td, th]
-  profile: false
-  blanklines: false
-  ignore:
-    envs: []
-
-# sass:
-#   sass_dir: css
-#   style:    compressed
-
-collections:
-  my_tags:
-    output: true
-    permalink: /tagged/:slug/
-defaults:
-  -
-    scope:
-      path: ""
-      type: my_tags
-    values:
-      layout: tagged
-
-# baseurl: ""
-permalink: /blog/:slug
-timezone: America/New_York
-future: false
-
-exclude:
-- README.md
-- LICENSE.md
-
-theme_mode: light
-
-special_links: {}
-
-
-# # Add general links to site pages here
-# links:
-#   Resume: /assets/resume.pdf
-#
-# # Add links for more focus here
-special_links:
-  "Google Scholar": https://scholar.google.com/citations?user=6DWVgpEAAAAJ
-  "LinkedIn": https://www.linkedin.com/in/dmitry-kislyuk-2002043b
-  "GitHub": https://github.com/dkislyuk
-
