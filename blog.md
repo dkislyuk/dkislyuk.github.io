@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Writing
-permalink: /writing
+permalink: /writing/
 ---
 
 # Writing
